@@ -1,1 +1,0 @@
-import"./03-hero-critical-BKzCa96P.js";import{u as r,b as t}from"./02-react-router-l50u7dmW.js";import"./01-react-core-DCvPBpDR.js";import"./06-utils-QQqVvbBo.js";const o=()=>(r(),t(),null);export{o as default};
