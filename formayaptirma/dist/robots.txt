@@ -1,0 +1,58 @@
+
+# FormaYaptirma robots.txt - SEO Optimized
+
+# Allow all robots full access
+User-agent: *
+Allow: /
+
+# Block certain paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /checkout/
+
+# Crawl delay for better server performance
+Crawl-delay: 10
+
+# Sitemap URLs
+Sitemap: https://formayaptirma.com/sitemap.xml
+Sitemap: https://formayaptirma.com/blog-sitemap.xml
+Sitemap: https://formayaptirma.com/product-sitemap.xml
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 8
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 8
+
+# Block AI crawlers from scraping content
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
